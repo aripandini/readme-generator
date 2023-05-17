@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 
+
 const generateMarkdown = require("./utils/generateMarkdown");
 const inquirer = require('inquirer');
 const { writeFile } = require('fs').promises;
@@ -21,12 +22,12 @@ const questions = () => {
         {
           type: 'input',
           name: 'install',
-          message: 'Which command should be run to install dependencies?',
+          message: 'Provide installation instructions, if any.',
         },
         {
           type: 'input',
           name: 'usage',
-          message: 'Provide examples for usage.',
+          message: 'Provide examples for usage of your project.',
         },
         {
             type: 'checkbox',
@@ -48,7 +49,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'test',
-            message: 'Which command should be run for tests?',
+            message: 'How can your project be tested?',
         },
         {
             type: 'input',
@@ -64,10 +65,17 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+        
+};
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    questions()
+    .then((answers) => writeFile('./sampleREADME/README.md', generateMarkdown(answers)))
+    .then(() => console.log('README successfully created'))
+    .catch((err) => console.error(err))
+};
 
 // Function call to initialize app
 init();
