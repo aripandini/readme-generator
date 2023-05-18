@@ -24,7 +24,7 @@ function renderLicenseSection(license) {
       licenseBadgeLink += renderLicenseBadgeLink(license[i]);
     }
 
-    return `This project is licensed under ${license}. To read more: ` + '\n\n' + licenseBadgeLink;  
+    return '\n\n' + licenseBadgeLink;  
   } else {
     return '';
   }
@@ -33,6 +33,9 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown({title, description, install, usage, license, contribution, test, github, email}) {
   return `# ${title}
+
+  ${renderLicenseSection(license)}
+
 
   ## Description
 
@@ -57,6 +60,7 @@ function generateMarkdown({title, description, install, usage, license, contribu
 
   ## License 
 
+  This project is licensed under ${license}. To read more:
   ${renderLicenseSection(license)}
 
   ## Contributing
