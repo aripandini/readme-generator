@@ -1,8 +1,8 @@
-# djfaoi
+# README Generator
   
   ## Description
 
-  difh
+  To quickly create a README file using node 
 
   ## Table of Contents 
 
@@ -15,30 +15,29 @@
 
   ## Installation
 
-  aef
+  Please ensure you have node installed
 
   ## Usage
 
-  ifdj
+  Working on a project and needding a readme file
 
   
   ## License
-This project is licensed under Apache License 2.0..
-  .
+This project is licensed under MIT License..
 
 
   ## Contributing
   
-  dwaih
+  forking this project and editing things they think could be better
 
   ## Tests
 
-  osjadf
+  running node index.js on terminal 
 
   ## Questions
   
   Please reach out with any questions you might have! 
 
-  - [GitHub Profile](https://github.com/oadsfj)
-  - Email: odsfj
+  - [GitHub Profile](https://github.com/aripandini)
+  - Email: ariannepandini@hotmail.com
   
