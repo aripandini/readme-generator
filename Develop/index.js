@@ -36,8 +36,7 @@ const questions = () => {
             choices: [
                 'MIT License',
                 'Apache License 2.0',
-                'GNU General Public License',
-                'Berkeley Software Distribution License',
+                'GNU General Public License v3',
                 'Boost Software License'
             ]
         },
@@ -62,11 +61,6 @@ const questions = () => {
             message: 'Provide your email.',
           },
       ]);
-};
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-        
 };
 
 // TODO: Create a function to initialize app
