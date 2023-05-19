@@ -12,17 +12,17 @@ const questions = () => {
         {
           type: 'input',
           name: 'description',
-          message: 'Provide a short description of your project.',
+          message: 'Provide a short description of your project:',
         },
         {
           type: 'input',
           name: 'install',
-          message: 'Provide installation instructions, if any.',
+          message: 'Provide installation instructions:',
         },
         {
           type: 'input',
           name: 'usage',
-          message: 'Provide examples for usage of your project.',
+          message: 'Provide examples for usage of your project:',
         },
         {
             type: 'checkbox',
