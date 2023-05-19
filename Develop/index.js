@@ -60,7 +60,7 @@ const questions = () => {
 
 function init() {
     questions()
-    .then((answers) => writeFile('./sampleREADME/README.md', generateMarkdown(answers)))
+    .then((answers) => writeFile('./demo/README.md', generateMarkdown(answers)))
     .then(() => console.log('README successfully created'))
     .catch((err) => console.error(err))
 };
