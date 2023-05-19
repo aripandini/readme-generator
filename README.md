@@ -1,11 +1,12 @@
 # Professional README Generator
 
-## Description 
+## Description
 
-This application utilizes Inquirer, an NPM package available in Node, to ask for user's input in order to quickly generate a professional README file. 
+This application utilizes Inquirer, an NPM package available in Node, to ask for user's input in order to quickly generate a professional README file.
 
-## Demo 
+## Demo
 
+Below is a demo of this application
 
 
 
